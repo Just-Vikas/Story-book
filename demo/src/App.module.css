@@ -1,0 +1,18 @@
+.primaryBtn {
+    position: fixed;  /* Use fixed to position it relative to the viewport */
+    bottom: 100px;     /* Adjust distance from bottom */
+    left: 50%;        /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    cursor: pointer;
+    font-weight: 500;
+    padding: 13px 25px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    border: none;
+    color: white;
+    background: #185adb;
+    transition: all 0.25s ease;
+    margin: 0;        /* Remove margin */
+}
+
+
